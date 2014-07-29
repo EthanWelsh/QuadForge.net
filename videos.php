@@ -14,6 +14,19 @@ Template Name: Videos Page
         			<a href="http://youtube.com/mc3uavforge" target="_blank">Visit our YouTube channel</a>
         		</div>
 
+
+/*
+NOTE: To add a video, copy the following code. Paste the link to your video in between the "" after src...
+
+<div class="half youtube-vid inner">
+        			<h2>THE TITLE OF YOUR VIDEO GOES HERE</h2>
+        			<div class="divider red-divider"></div>
+        			<div class="vidwrapper">
+        				<iframe width="560" height="315" src="www.yourlinkgoeshere.com frameborder="0" allowfullscreen></iframe>
+        			</div>
+        		</div>
+*/
+
         		<div class="half youtube-vid inner">
         			<h2>Crash Test</h2>
         			<div class="divider red-divider"></div>
