@@ -47,10 +47,23 @@ Template Name: Home Page
         			<div class="divider"></div>
         		</div>
 
+
+
+
         		<div class="full container">
 	        		<div class=" inner rlink">
 	        			<a href="http://www.mc3.edu/academics/areas-of-study/stem" target="_blank">Montgomery County Community College -- STEM</a>
 	        		</div>
+
+
+	        		/*
+	        		In order to add a link to the related links section of the page, copy and paste the below code exactly as it appears directly below this comment. Edit the link and link title to the appropriate content, then push this to the server. Your link should now appear.
+
+	        		<div class=" inner rlink">
+                        <a href="www.YOURLINKGOESHERE.com" target="_blank">YOUR LINK TEXT GOES HERE</a>
+                    </div>
+                    */
+
 
 	        		<div class=" inner rlink">
                     	        			<a href="http://www.idsc.ethz.ch/Research_DAndrea/Flying_Machine_Arena" target="_blank">Flying Machine Arena</a>
@@ -64,9 +77,11 @@ Template Name: Home Page
 	        			<a href="http://developer.android.com/develop/index.html" target="_blank">Android Developers</a>
 	        		</div>
 
+
 	        		<div class=" inner rlink">
 	        			<a href="http://diydrones.com/" target="_blank">DIY Drones</a>
 	        		</div>
+
 
 	        		<div class=" inner rlink">
 	        			<a href="http://www.slawomir.de/publications.html" target="_blank">Slawomir Grzonka (for more on autonomous, indoor quadrotors)</a>

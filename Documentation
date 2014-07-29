@@ -1,4 +1,18 @@
-*********************************************Maintenance of Quadforge.net**********************************************
+***************************************************************************************************
+***************************************************************************************************
+************************************ MAINTENANCE OF QUADFORGE .NET*********************************
+***************************************************************************************************
+***************************************************************************************************
+
+
+
+********************************************USE GITHUB*********************************************
+- As webmaster, I would like to request, above all else: PLEASE US GITHUB.
+- Everyone makes mistakes, and if you edit the website without using version control, it is very possibly (and likely) that you will, at some point, destroy the website.
+- If you do not know how to use GitHub, watch this video: https://www.youtube.com/watch?v=0fKg7e37bQE
+- If you contact me @welshej@gmail.com, I will add you as a collaborator to the GitHub.
+- I know it can be a pain, but you before you upload anything to the webserver, please add, commit, and push that change onto the GitHub project before proceeding.
+****************************************************************************************************
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -31,3 +45,48 @@ WARNING: there is no 'undo' on FTP. Any changes you make are irreversible. Mista
 -----------------------------------------------------------------------------------------------------------------------
 
 If you have any questions, please see JJ for contact details for Ethan Welsh.
+
+
+---------------------------------------------------------------------------------------------------
+
+General guide of how to do things:
+
+******************************************ADDING VIDEOS********************************************
+- Upload video in question the quadforge YouTube channel. If needed, ask JJ to log in for you. The credentials should be the same as his login for his GMAIL account.
+- After uploading the video, connect using FTP (see above for more information).
+- Open up the videos.php file.
+- About midway through the file, you should see a commented block of code. This will be surrounded by two /* */, and may appear grayed out depending on what text editor you are using.
+- Copy and paste this code below the comment, and change the video title and URL to whatever you'd like.
+
+TO DELETE: simply remove the portion of code you used to create the link in the first place.
+***************************************************************************************************
+
+
+
+******************************************ADDING NEWS STORY****************************************
+- Log in to http://www.quadforge.net/wp-admin/ and navigate to the posts page (found on the nav bar to the left of the page)
+- Click the add 'add new' button on the top of the page.
+- Edit the page then click 'update' when you are ready to publish the article.
+***************************************************************************************************
+
+
+
+******************************************ADDING PICTURE*******************************************
+- Log in to http://www.quadforge.net/wp-admin/ and navigate to the media page (found on the nav bar to the left of the page)
+- Click 'add new' and upload your picture.
+
+TO DELETE: Log in to wordpress, navigate to the media page. Put your mouse over the picture and click 'Delete Permanently'
+***************************************************************************************************
+
+
+
+****************************************ADDING A RELATED LINK**************************************
+- Connect using FTP (see above for more information).
+- Open up the home.php file.
+- About midway through the file, you should see a commented block of code. This will be surrounded by two /* */, and may appear grayed out depending on what text editor you are using.
+- Copy and paste this code below the comment, and change the link title and URL to whatever you'd like.
+
+TO DELETE: simply remove the portion of code you used to create the link in the first place.
+***************************************************************************************************
+
+
