@@ -1,0 +1,467 @@
+/*   
+Theme Name: Quadforge Theme
+Theme URI: http://quadforge.net
+Description: This is the custom theme for Quadforge
+Author: Julian Greenberg
+Author URI: http://g2idesign.com
+Version: 1
+*/
+
+.mainmenu .menu li:first-child{
+	display:none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.red {
+  color: #b54125;
+}
+.link {
+  color: #b54125;
+  border-bottom: 1px dotted #b54125;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.link:hover {
+  border-bottom: 1px dotted transparent;
+}
+ul {
+  list-style: none;
+}
+.mainmenu {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+}
+.divider {
+  width: 150px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+}
+.home .header-img {
+  background-color: black;
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .header-img .wrapper {
+  background-image: url(images/blackbat-logo.png);
+  background-position: center;
+  background-size: 475px;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 39.375em) {
+  .home .header-img .wrapper {
+    background-size: 60%;
+  }
+}
+@media only screen and (max-width: 30em) {
+  .home .header-img .wrapper {
+    background-size: 75%;
+  }
+}
+.home h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home p {
+  margin-bottom: 20px;
+  line-height: 26px;
+  font-size: 20px;
+}
+.home .latest-news .divider {
+  border-bottom: 2px solid #666;
+}
+.home .latest-post {
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #666;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.home .latest-post .news-text {
+  color: #666;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.home .latest-post .news-text h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 0 0 10px 0;
+}
+.home .latest-post .news-text p {
+  margin-bottom: 10px;
+  line-height: 26px;
+  font-size: 18px;
+}
+.home .latest-post .news-text .date {
+  font-style: italic;
+}
+.home .latest-post:hover .news-text {
+  color: #b54125;
+}
+.home .more-news {
+  text-align: center;
+  margin-top: 20px;
+}
+.home .more-news a {
+  background: #f0f0f0;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  color: #666;
+  padding: 14px 20px;
+  border: 1px solid rgba(24, 24, 24, 0.5);
+  box-shadow: 1px 0px #6B6B6B, 0px 1px #8D8D8D, 
+				2px 1px #6B6B6B, 1px 2px #8D8D8D, 
+				3px 2px #6B6B6B, 2px 3px #8D8D8D, 
+				4px 3px #6B6B6B, 3px 4px #8D8D8D, 
+				5px 4px #6B6B6B, 4px 5px #8D8D8D, 
+				6px 5px #6B6B6B, 5px 6px #8D8D8D;
+}
+.home .more-news a:hover,
+.home .more-news a:focus,
+.home .more-news a.hover,
+.home .more-news a.focus {
+  transform: translate(2px, 2px);
+  -ms-transform: translate(2px, 2px);
+  -webkit-transform: translate(2px, 2px);
+  box-shadow: 1px 0px #6b6b6b, 0px 1px #8d8d8d, 2px 1px #6b6b6b, 1px 2px #8d8d8d, 3px 2px #6b6b6b, 2px 3px #8d8d8d, 4px 3px #6b6b6b, 3px 4px #8d8d8d;
+}
+.main-header {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.team h2,
+.documentation h2,
+.about h2,
+.video h2,
+.news-single h2,
+.news-posts h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.team .divider,
+.documentation .divider,
+.about .divider,
+.video .divider,
+.news-single .divider,
+.news-posts .divider {
+  margin: 0 0 30px 0;
+}
+.team .red-divider,
+.documentation .red-divider,
+.about .red-divider,
+.video .red-divider,
+.news-single .red-divider,
+.news-posts .red-divider {
+  border-bottom: 2px solid #b54125;
+  width: 100px;
+}
+.team .member h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0 15px 0;
+}
+.team .member p {
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.team .team-cat p {
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+.documentation .title p,
+.documentation .year p {
+  margin-bottom: 20px;
+}
+.about h2 {
+  padding: 5px 0;
+}
+.about .content-links h2 {
+  margin-bottom: 30px;
+  padding: 0;
+}
+.about .content-links a {
+  float: left;
+  clear: left;
+  margin: 0 0 20px 0;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about .content-links a span {
+  background-color: #b54125;
+  padding: 5px 10px;
+  margin-right: 15px;
+  color: white;
+  border-radius: 3px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b;
+}
+@media screen and (max-width: 31.25em) {
+  .about .content-links a span {
+    margin-bottom: 5px;
+  }
+}
+.about .content-links a:hover span {
+  transform: translate(1px, 1px);
+  -ms-transform: translate(1px, 1px);
+  -webkit-transform: translate(1px, 1px);
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b;
+}
+.videos .title {
+  margin-bottom: 40px;
+}
+.videos a {
+  border: 0;
+  background: #b54125;
+  font-weight: bold;
+  text-size: 14px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  color: white;
+  padding: 8px 14px;
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b, 4px 3px #752a18, 3px 4px #822f1b, 5px 4px #752a18, 4px 5px #822f1b, 6px 5px #752a18, 5px 6px #822f1b;
+}
+.videos a:hover,
+.videos a:focus,
+.videos a.hover,
+.videos a.focus {
+  transform: translate(2px, 2px);
+  -ms-transform: translate(2px, 2px);
+  -webkit-transform: translate(2px, 2px);
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b, 4px 3px #752a18, 3px 4px #822f1b;
+}
+.news-posts h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.news-posts .divider {
+  margin: 0 0 30px 0;
+}
+.news-posts .postinfo {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.news-posts .postinfo .when {
+  font-style: italic;
+}
+.news-posts .excerpt {
+  line-height: 24px;
+  font-size: 18px;
+}
+.news-posts .post-title h2 {
+  color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.news-posts .post-title:hover h2 {
+  color: #b54125;
+}
+.news-posts .read-more {
+  margin-top: 20px;
+}
+.news-posts .read-more a {
+  border: 0;
+  background: #b54125;
+  font-weight: bold;
+  text-size: 14px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  color: white;
+  padding: 8px 14px;
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b, 4px 3px #752a18, 3px 4px #822f1b, 5px 4px #752a18, 4px 5px #822f1b, 6px 5px #752a18, 5px 6px #822f1b;
+}
+.news-posts .read-more a:hover,
+.news-posts .read-more a:focus,
+.news-posts .read-more a.hover,
+.news-posts .read-more a.focus {
+  transform: translate(2px, 2px);
+  -ms-transform: translate(2px, 2px);
+  -webkit-transform: translate(2px, 2px);
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b, 4px 3px #752a18, 3px 4px #822f1b;
+}
+.single-post h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.single-post .postinfo {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.single-post .postinfo .when {
+  font-style: italic;
+}
+.single-post .post-content {
+  line-height: 24px;
+  font-size: 18px;
+}
+.single-post .post-content a {
+  color: #b54125;
+  border-bottom: 1px dotted #b54125;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.single-post .post-content a:hover {
+  border-bottom: 1px dotted transparent;
+}
+.single-post .post-content ul li {
+  font-size: 16px;
+  line-height: 22px;
+  list-style-type: square;
+  margin: 10px 0px 10px 40px;
+}
+.sidebar .search {
+  margin-bottom: 20px;
+  float: left;
+}
+.sidebar .search input {
+  float: left;
+  width: 85%;
+  color: #444444;
+  border: 1px solid #cecece;
+  padding: 10px 15px;
+  border-right: none;
+  font-size: 16px;
+}
+.sidebar .search input:focus {
+  outline: none;
+}
+.sidebar .search input[type=submit] {
+  width: 15%;
+  border: 1px solid #b54125;
+  cursor: pointer;
+  background-image: url(images/search-icon.png);
+  background-color: #b54125;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 1;
+  -ms-filter: "alpha(opacity=100)";
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.sidebar .search input[type=submit]:hover {
+  opacity: .75;
+  -ms-filter: "alpha(opacity=75)";
+}
+.sidebar .recent-posts h4,
+.sidebar .archives h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.sidebar .recent-posts ul li,
+.sidebar .archives ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.sidebar .recent-posts ul li a,
+.sidebar .archives ul li a {
+  color: #b54125;
+  border-bottom: 1px dotted transparent;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar .recent-posts ul li a:hover,
+.sidebar .archives ul li a:hover {
+  border-bottom: 1px dotted #b54125;
+}
+
+.gallery_pages_list .current_gallery_page_num, .gallery_pages_list a, .change-post .old a, .change-post .new a {
+  background-color: #b54125;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b;
+}
+
+.gallery_pages_list a:hover, .change-post .old a:hover, .change-post .new a:hover {
+  transform: translate(1px, 1px);
+  -ms-transform: translate(1px, 1px);
+  -webkit-transform: translate(1px, 1px);
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b;
+}
+
+.blog-pagination .page-numbers li{
+  float:left;
+}
+.blog-pagination .page-numbers li .current{
+  font-weight: 700;
+}
+.blog-pagination .page-numbers li .current, .blog-pagination .page-numbers li a {
+  background-color: #b54125;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10px;
+  display: inline-block;
+  /* needed for anchors */
+  position: relative;
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b, 3px 2px #752a18, 2px 3px #822f1b;
+}
+
+
+.blog-pagination .page-numbers li a:hover {
+  transform: translate(1px, 1px);
+  -ms-transform: translate(1px, 1px);
+  -webkit-transform: translate(1px, 1px);
+  box-shadow: 1px 0px #752a18, 0px 1px #822f1b, 2px 1px #752a18, 1px 2px #822f1b;
+
+
+}
