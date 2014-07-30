@@ -56,13 +56,7 @@ Template Name: Home Page
 	        		</div>
 
 
-	        		/*
-	        		In order to add a link to the related links section of the page, copy and paste the below code exactly as it appears directly below this comment. Edit the link and link title to the appropriate content, then push this to the server. Your link should now appear.
 
-	        		<div class=" inner rlink">
-                        <a href="www.YOURLINKGOESHERE.com" target="_blank">YOUR LINK TEXT GOES HERE</a>
-                    </div>
-                    */
 
 
 	        		<div class=" inner rlink">
