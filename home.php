@@ -19,11 +19,10 @@ Template Name: Home Page
         			<h1>The Quadforge Project</h1>
         			<div class="divider"></div>
 
-        			<p>Welcome to the QuadForge Project website! To learn about the specifics of our mission, visit the <a class="link" href="<?php echo get_page_link(9); ?>">About</a> page. The QuadForge Project is part of EGR 291 & 292, both engineering research and development classes at <a class="link" href="http://www.mc3.edu" target="_blank">Montgomery County Community College</a>. </p>
 
-        			<p>Welcome to the QuadForge Project website! To learn about the specifics of our mission, visit the About page.</p>
+        			<p>Welcome to the QuadForge Project website! To learn about the specifics of our mission, visit the <a class="link" href="<?php echo get_page_link(9); ?>">About</a> page.</p>
 
-                    <p>The QuadForge project is based out of Montgomery County Community College, and is an integral part the engineering research and development department. The project is almost entirely student run, consisting of a team of students studying at Montgomery County Community College and various other schools across the Philadelphia region.</p>
+                    <p>The QuadForge project is based out of Montgomery County Community College, and is an integral part of  engineering research. The project is almost entirely student run, consisting of a team of students studying at Montgomery County Community College and various other schools across the Philadelphia region.</p>
 
                     <p>QuadForge aims to deliver a modular flight platform with numerous real-world applications. With Wifi, 3G, and 4G connectivity; a first person view camera; water repellent nano technology; embedded electronics; and other possibilities, products delivered by the QuadForge Project hope to serve many different uses.</p>
 
@@ -78,7 +77,7 @@ Template Name: Home Page
 
 
 	        		<div class=" inner rlink">
-	        			<a href="http://www.slawomir.de/publications.html" target="_blank">Slawomir Grzonka (for more on autonomous, indoor quadrotors)</a>
+	        			<a href="http://www.slawomir.de/publications.html" target="_blank">Slawomir Grzonka on Autonomous Quadrotors</a>
 	        		</div>
 
 	        		<div class=" inner rlink">
