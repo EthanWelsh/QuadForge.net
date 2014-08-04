@@ -24,7 +24,7 @@ Template Name: Home Page
 
                     <p>The QuadForge project is based out of Montgomery County Community College, and is an integral part of  engineering research. The project is almost entirely student run, consisting of a team of students studying at Montgomery County Community College and various other schools across the Philadelphia region.</p>
 
-                    <p>QuadForge aims to deliver a modular flight platform with numerous real-world applications. With Wifi, 3G, and 4G connectivity; a first person view camera; water repellent nano technology; embedded electronics; and other possibilities, products delivered by the QuadForge Project hope to serve many different uses.</p>
+                    <p>QuadForge aims to deliver a modular flight platform with numerous real-world applications. With Wifi, 3G, and 4G connectivity; a first person view camera; water repellent nanotechnology; embedded electronics; and other possibilities, products delivered by the QuadForge Project hope to serve many different uses.</p>
 
                     <p>Development covers a wide range of disciplines: electrical engineering, mechanical engineering, math, chemistry, and computer science. Additionally, the project is organized around delivering an actual product, meaning that proper documentation and real-world reliability are priorities.</p>
 
