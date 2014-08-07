@@ -60,7 +60,7 @@ Template Name: Videos Page
 
 
         		<div class="half youtube-vid inner">
-        			<h2>Rainy Flight with Exposed Electonicst</h2>
+        			<h2>Rainy Flight with Exposed Electronics</h2>
         			<div class="divider red-divider"></div>
         			<div class="vidwrapper">
         				<iframe width="560" height="315" src="//www.youtube.com/embed/tJ9OSGyn1nU?list=PLAzeszoOIDGR42BIjEXvFyPudXll2lN2r" frameborder="0" allowfullscreen></iframe>
