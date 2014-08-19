@@ -31,14 +31,6 @@ Template Name: Videos Page
         			</div>
         		</div>
 
-
-
-
-
-
-
-
-
         		<div class="half youtube-vid inner">
         			<h2>Rainy Flight with Exposed Electronics</h2>
         			<div class="divider red-divider"></div>
